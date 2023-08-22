@@ -1,0 +1,219 @@
+
+  body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; 
+  }
+
+  .pictures{
+    width: 150px;
+    height: 150px;
+  }
+ 
+ 
+ 
+  .header {
+    position: relative;
+    overflow: hidden;
+    height: 60vh;
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+
+
+
+header h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  color:  #47639e; 
+  text-align: center;
+  padding-top: 120px;
+}
+
+header p {
+  
+  font-size: 1.2rem;
+  color: #47639e; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #FF9800;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: green;
+}
+  
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+ 
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 2rem;
+  }
+  .testimonial {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 0.5rem; 
+  }
+  
+  .customer-name {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .contact-form {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #8ed1fc;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-container form input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .contact-container form button {
+    display: inline-block;
+    background-color: #47639e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-container form button:hover {
+    background-color: #FFB74D;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 10px;
+    }
+  
+    .contact-container h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  footer {
+    background-color:#abb8c3 ;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    
+  }
+  
+  footer nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1); 
+  }
+  
+  .social-icons a:hover img {
+    opacity: 1;
+  }
+  
+  @media (max-width: 480px) {
+    .social-icons a {
+      margin: 0 5px; 
+    }
+  
+    .social-icons a img {
+      width: 25px; 
+      height: 25px;
+    }
+  }
